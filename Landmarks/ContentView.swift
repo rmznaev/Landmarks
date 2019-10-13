@@ -9,12 +9,38 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        Text("Turtle Rock")
-            .font(.title)
-            .foregroundColor(.black)
-            .multilineTextAlignment(.center)
+        
+        HStack {
+            
+            VStack(alignment: .leading) {
+                
+                Text("Turtle Rock")
+                    .font(.title)
+                    .foregroundColor(.black)
+                    .multilineTextAlignment(.center)
+                
+                HStack {
+                    
+                    Text("Joshua tree national park")
+                        .font(.subheadline)
+                    
+                    Spacer()
+                    
+                    Text("California")
+                        .font(.subheadline)
+                    
+                }
+                
+            }
+            
+            .padding()
+            
+        }
+        
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
