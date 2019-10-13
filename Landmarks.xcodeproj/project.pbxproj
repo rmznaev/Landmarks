@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C405D2BE23531C7800D6301D /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C405D2BD23531C7800D6301D /* CircleImage.swift */; };
 		C4A63D6023452DD600C14628 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A63D5F23452DD600C14628 /* AppDelegate.swift */; };
 		C4A63D6223452DD600C14628 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A63D6123452DD600C14628 /* SceneDelegate.swift */; };
 		C4A63D6423452DD600C14628 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A63D6323452DD600C14628 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C405D2BD23531C7800D6301D /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		C4A63D5C23452DD600C14628 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A63D5F23452DD600C14628 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4A63D6123452DD600C14628 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				C4A63D5F23452DD600C14628 /* AppDelegate.swift */,
 				C4A63D6123452DD600C14628 /* SceneDelegate.swift */,
 				C4A63D6323452DD600C14628 /* ContentView.swift */,
+				C405D2BD23531C7800D6301D /* CircleImage.swift */,
 				C4A63D6523452DD800C14628 /* Assets.xcassets */,
 				C4A63D6A23452DD800C14628 /* LaunchScreen.storyboard */,
 				C4A63D6D23452DD800C14628 /* Info.plist */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4A63D6023452DD600C14628 /* AppDelegate.swift in Sources */,
+				C405D2BE23531C7800D6301D /* CircleImage.swift in Sources */,
 				C4A63D6223452DD600C14628 /* SceneDelegate.swift in Sources */,
 				C4A63D6423452DD600C14628 /* ContentView.swift in Sources */,
 			);
