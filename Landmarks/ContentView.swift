@@ -12,23 +12,31 @@ struct ContentView: View {
     
     var body: some View {
         
-        HStack {
+        VStack {
+            
+            MapView()
+                .edgesIgnoringSafeArea(.top)
+                .frame(height: 300)
+            
+            CircleImage()
+                .offset(y: -130)
+                .padding(.bottom, -130)
             
             VStack(alignment: .leading) {
                 
-                Text("Turtle Rock")
+                Text("Baku")
                     .font(.title)
                     .foregroundColor(.black)
                     .multilineTextAlignment(.center)
                 
                 HStack {
                     
-                    Text("Joshua tree national park")
+                    Text("Land of fire 🔥")
                         .font(.subheadline)
                     
                     Spacer()
                     
-                    Text("California")
+                    Text("Azerbaijan")
                         .font(.subheadline)
                     
                 }
@@ -36,6 +44,8 @@ struct ContentView: View {
             }
             
             .padding()
+            
+            Spacer()
             
         }
         
